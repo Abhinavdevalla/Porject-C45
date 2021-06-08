@@ -18,7 +18,7 @@ function setup() {
 
   human = createSprite(150,700,100,100);
   human.addImage(humanImg);
-  human.scale = 0.45;
+  human.scale = 0.5;
 
   ground = createSprite(0,790,1200,20);
   ground.x = ground.width/2
